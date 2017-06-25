@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>百分比布局</title>
+    <style>
+        body {
+            width: 95%;
+            height: auto;
+            margin: 10px auto;
+            padding: 5px;
+            border: 1px solid #000;
+        }
+
+        header {
+            height: 50px;
+        }
+
+        section {
+            height: 300px;
+        }
+        footer{
+            height: 50px;
+            text-align: center;
+            border: 1px solid #000;
+        }
+
+        section>*{
+            height: 100%;
+            border: 1px solid #000;
+            float: left;
+        }
+        aside {
+            width: 25%;
+        }
+
+        article {
+            width: 71%;
+            margin-left: 10px;
+        }
+
+
+
+    </style>
+</head>
+<body>
+<!--header-->
+<header>表头</header>
+<!--nav-->
+<nav>导航</nav>
+<!--section-->
+<section>
+    <aside>侧边栏</aside>
+    <article>文章</article>
+</section>
+<!--页脚-->
+<footer> 页脚 </footer>
+</body>
+</html>

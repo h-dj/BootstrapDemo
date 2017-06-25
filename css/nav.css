@@ -1,0 +1,34 @@
+.wjs_nav {
+    background-color: #ffffff;
+    border-color: #e7e7e7;
+    margin-bottom: 0px;
+}
+
+.wjs_nav .navbar-brand {
+    color: #777;
+}
+
+.wjs_nav .navbar-brand:hover,
+.wjs_nav .navbar-brand:focus {
+    color: #5e5e5e;
+    background-color: transparent;
+}
+
+.wjs_nav .navbar-nav > li > a {
+    color: #777;
+}
+
+.wjs_nav .navbar-nav > li > a:hover,
+.wjs_nav .navbar-nav > li > a:focus {
+    color: #333;
+    background-color: transparent;
+    border-bottom: 1px solid red;
+}
+
+.wjs_nav .navbar-nav > .active > a,
+.wjs_nav .navbar-nav > .active > a:hover,
+.wjs_nav .navbar-nav > .active > a:focus {
+    color: #555;
+    background-color: transparent;
+    border-bottom: 1px solid red;
+}

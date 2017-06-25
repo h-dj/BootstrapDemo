@@ -1,0 +1,25 @@
+
+.wjs_book {
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .wjs_book {
+        display: none;
+    }
+}
+
+.wjs_book .row span:nth-child(3) {
+    margin-left: 10%;
+}
+
+.wjs_book .row em {
+    color: red;
+}
+
+.wjs_book .row em:last-child {
+    border-bottom: 1px dashed #ff0000;
+}
+

@@ -1,0 +1,55 @@
+.wjs_partner {
+    overflow: hidden;
+}
+
+.wjs_partner .container .row > div:first-child p {
+    padding: 10px;
+    text-align: center;
+    font-size: 28px;
+}
+
+.wjs_partner .container .row .col-md-4 {
+    height: 100%;
+}
+
+.wjs_partner .container .row .partner_icon {
+    display: block;
+    width: 116px;
+    height: 116px;
+    border: 1px solid #000;
+    background-origin: content-box;
+    margin: 15px auto;
+
+}
+
+.wjs_partner .container .row > div > .partner_icon {
+    background-image: url("../images/partner.jpg");
+    background-repeat: no-repeat;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;;
+}
+
+.wjs_partner .container .row > div:nth-child(1) > .partner_icon{
+    background-position: -8px -40px;
+}
+
+.wjs_partner .container .row > div:nth-child(2) > .partner_icon{
+    background-position: -145px -41px;
+}
+
+.wjs_partner .container .row > div:nth-child(3) > .partner_icon{
+    background-position: -282px -41px;
+}
+
+.wjs_partner .container .row > div:nth-child(4) > .partner_icon{
+    background-position: -419px -41px;
+}
+
+.wjs_partner .container .row > div:nth-child(5) > .partner_icon{
+    background-position: -8px -173px;
+}
+
+.wjs_partner .container .row > div:nth-child(6) > .partner_icon{
+    background-position: -145px -173px;
+}

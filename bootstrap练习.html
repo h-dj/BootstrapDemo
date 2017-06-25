@@ -1,0 +1,900 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bootstrap练习</title>
+    <link href="./lib/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/nav.css"/>
+    <link rel="stylesheet" href="./css/index.css"/>
+    <link rel="stylesheet" href="./css/info.css"/>
+    <link rel="stylesheet" href="./css/books.css"/>
+    <link rel="stylesheet" href="./css/produce.css"/>
+    <link rel="stylesheet" href="./css/partner.css"/>
+    <link rel="stylesheet" href="./css/news.css"/>
+    <!--[if lt IE 9]>
+    <script src="./lib/html5shiv/html5shiv.min.js"></script>
+    <script src="./lib/respond/respond.js"></script>
+    <![endif]-->
+
+</head>
+<body>
+
+<!--header-->
+<header class="wjs_header divider">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-2">
+                <a href="" class="wjs_code">
+                    <span class="font glyphicon glyphicon-phone m_R10"></span>
+                    <span class="text">手机微金所</span>
+                    <span class="font glyphicon glyphicon-menu-down m_L10"></span>
+                    <img src="images/code.jpg"/>
+                </a>
+            </div>
+            <div class="col-md-5">
+                <a href="" class="contact">
+                    <span class="font glyphicon glyphicon-phone-alt m_R10"></span>
+                    <span class="text">10086 (服务时间 9：00~21：00)</span>
+                </a>
+            </div>
+            <div class="col-md-2 wjs_problem">
+                <a href="#" class="text m_R10">常见问题</a>
+                <a href="" class="text m_L10">财富登陆</a>
+            </div>
+            <div class="col-md-3">
+                <button type="button" class="btn btn-default register">免费注册</button>
+                <button type="button" class="btn btn-default login">登陆</button>
+            </div>
+        </div>
+    </div>
+</header>
+<!--nav-->
+<nav class="wjs_nav navbar navbar-default divider" role="navigation">
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <!--navbar-toggle collapsed:它有手风琴效果-->
+            <!--data-toggle="collapse"：说明它是手风琴菜单-->
+            <!--data-target="#bs-example-navbar-collapse-1":说明这个手风琴操作的是那一个导航-->
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Brand</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#">我要投资</a></li>
+                <li><a href="#">我要借贷</a></li>
+                <li><a href="#">平台介绍</a></li>
+                <li><a href="#">新手专区</a></li>
+                <li><a href="#">最新动态</a></li>
+                <li><a href="#">微平台 </a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#">个人中心</a></li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+</nav>
+
+<!--banner-->
+<div class="wjs_banner">
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+            <div class="item active">
+                <img src="./images/slide_01_2000x410.jpg" alt="...">
+
+                <div class="carousel-caption">
+                </div>
+            </div>
+            <div class="item">
+                <img src="./images/slide_02_2000x410.jpg" alt="...">
+
+                <div class="carousel-caption">
+                </div>
+            </div>
+            <div class="item">
+                <img src="./images/slide_03_2000x410.jpg" alt="...">
+
+                <div class="carousel-caption">
+                </div>
+            </div>
+            <div class="item">
+                <img src="./images/slide_04_2000x410.jpg" alt="...">
+
+                <div class="carousel-caption">
+                </div>
+            </div>
+        </div>
+
+        <!-- Controls -->
+        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+</div>
+<!--信息-->
+<div class="wjs_info divider">
+    <div class="container ">
+        <div class="row">
+            <div class="col-md-4 col-sm-6">
+            <span class="left">
+                 <img src="./images/info.png" alt=""/>
+            </span>
+            <span class="right">
+                <h4>
+                    <a href="#">支持交易保障</a>
+                </h4>
+                <p>银联支持全程保障支持安全</p>
+            </span>
+            </div>
+
+            <div class="col-md-4 col-sm-6">
+            <span class="left">
+                 <img src="./images/info.png" alt=""/>
+            </span>
+            <span class="right">
+                <h4>
+                    <a href="#">支持交易保障</a>
+                </h4>
+                <p>银联支持全程保障支持安全</p>
+            </span>
+            </div>
+
+            <div class="col-md-4 col-sm-6">
+            <span class="left">
+                 <img src="./images/info.png" alt=""/>
+            </span>
+            <span class="right">
+                <h4>
+                    <a href="#">支持交易保障</a>
+                </h4>
+                <p>银联支持全程保障支持安全</p>
+            </span>
+            </div>
+
+            <div class="col-md-4 col-sm-6">
+            <span class="left">
+                 <img src="./images/info.png" alt=""/>
+            </span>
+            <span class="right">
+                <h4>
+                    <a href="#">支持交易保障</a>
+                </h4>
+                <p>银联支持全程保障支持安全</p>
+            </span>
+            </div>
+
+            <div class="col-md-4 col-sm-6">
+            <span class="left">
+                 <img src="./images/info.png" alt=""/>
+            </span>
+            <span class="right">
+                <h4>
+                    <a href="#">支持交易保障</a>
+                </h4>
+                <p>银联支持全程保障支持安全</p>
+            </span>
+            </div>
+
+            <div class="col-md-4 col-sm-6">
+            <span class="left">
+                 <img src="./images/info.png" alt=""/>
+            </span>
+            <span class="right">
+                <h4>
+                    <a href="#">支持交易保障</a>
+                </h4>
+                <p>银联支持全程保障支持安全</p>
+            </span>
+            </div>
+        </div>
+    </div>
+</div>
+<!--book-->
+<div class="wjs_book divider">
+    <div class="container">
+        <div class="row">
+            <span class="font glyphicon glyphicon-dashboard"></span>
+            <span class="text m_L10">现在有<em>273</em>人在排队，累计预约交易成功<em>7517</em>次。什么是预约投标？ <a><em>立即预约</em></a></span>
+            <span class="font glyphicon glyphicon-facetime-video"></span>
+            <span class="text text m_L10">微金所企业宣传片</span>
+        </div>
+    </div>
+</div>
+<!--产品-->
+<div class="wjs_produce">
+    <!-- Nav tabs -->
+    <ul class="nav nav-tabs" role="tablist">
+        <li role="presentation" class="active">
+            <a href="#recommend" aria-controls="recommend" role="tab" data-toggle="tab">特别推荐</a>
+        </li>
+        <li role="presentation">
+            <a href="#invest1" aria-controls="invest1" role="tab" data-toggle="tab">微投资1</a>
+        </li>
+        <li role="presentation">
+            <a href="#invest2" aria-controls="invest2" role="tab" data-toggle="tab">微投资2</a>
+        </li>
+        <li role="presentation">
+            <a href="#invest3" aria-controls="invest3" role="tab" data-toggle="tab">微投资3</a>
+        </li>
+        <li role="presentation">
+            <a href="#invest4" aria-controls="invest4" role="tab" data-toggle="tab">微投资4</a>
+        </li>
+        <li role="presentation">
+            <a href="#invest5" aria-controls="invest5" role="tab" data-toggle="tab">微投资5</a>
+        </li>
+    </ul>
+
+    <!-- Tab panes -->
+    <div class="tab-content">
+        <div role="tabpanel" class="tab-pane fade in active" id="recommend">
+            <div class="container">
+                <div class="row">
+                    <div class="wjs_box col-md-4 col-sm-6 col-xs-12">
+                        <div class="innerBox">
+                            <div class="wjs_product_boxL navbar-left">
+                                <h4>新手体验标1002期</h4>
+
+                                <p><span class="txt_left">起投金额(元)</span><span class="txt_right">已投标人数</span></p><br/>
+
+                                <p><span class="txt_left">0.01万</span><span class="txt_right">22</span></p><br/>
+
+                                <p><span class="txt_left">借款期限</span><span class="txt_right">已投标总金额</span></p><br/>
+
+                                <p><span class="txt_left">10天</span><span>2000</span></p>
+                            </div>
+                            <div class="wjs_product_boxR navbar-right">
+                                <span class="wjs_product_boxR_Bold">8</span>%
+                                <p>年利率</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="wjs_box col-md-4 col-sm-6 col-xs-12">
+                        <div class="innerBox">
+                            <div class="wjs_product_boxL navbar-left">
+                                <h4>新手体验标1002期</h4>
+
+                                <p><span class="txt_left">起投金额(元)</span><span class="txt_right">已投标人数</span></p><br/>
+
+                                <p><span class="txt_left">0.01万</span><span class="txt_right">22</span></p><br/>
+
+                                <p><span class="txt_left">借款期限</span><span class="txt_right">已投标总金额</span></p><br/>
+
+                                <p><span class="txt_left">10天</span><span>2000</span></p>
+                            </div>
+                            <div class="wjs_product_boxR navbar-right">
+                                <span class="wjs_product_boxR_Bold">8</span>%
+                                <p>年利率</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="wjs_box col-md-4 col-sm-6 col-xs-12 ">
+                        <div class="div innerBox">
+                            <div class="wjs_product_boxL navbar-left">
+                                <h4>新手体验标1002期</h4>
+
+                                <p><span class="txt_left">起投金额(元)</span><span class="txt_right">已投标人数</span></p><br/>
+
+                                <p><span class="txt_left">0.01万</span><span class="txt_right">22</span></p><br/>
+
+                                <p><span class="txt_left">借款期限</span><span class="txt_right">已投标总金额</span></p><br/>
+
+                                <p><span class="txt_left">10天</span><span>2000</span></p>
+                            </div>
+                            <div class="wjs_product_boxR navbar-right">
+                                <span class="wjs_product_boxR_Bold">8</span>%
+                                <p>年利率</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="wjs_box col-md-4 col-sm-6 col-xs-12">
+                        <div class="innerBox">
+                            <div class="wjs_product_boxL navbar-left">
+                                <h4>新手体验标1002期</h4>
+
+                                <p><span class="txt_left">起投金额(元)</span><span class="txt_right">已投标人数</span></p><br/>
+
+                                <p><span class="txt_left">0.01万</span><span class="txt_right">22</span></p><br/>
+
+                                <p><span class="txt_left">借款期限</span><span class="txt_right">已投标总金额</span></p><br/>
+
+                                <p><span class="txt_left">10天</span><span>2000</span></p>
+                            </div>
+                            <div class="wjs_product_boxR navbar-right">
+                                <span class="wjs_product_boxR_Bold">8</span>%
+                                <p>年利率</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div role="tabpanel" class="tab-pane fade" id="invest1">
+            <div class="container">
+                <div class="row">
+                    <div class="wjs_box col-md-4 col-sm-6 col-xs-12">
+                        <div class="innerBox">
+                            <div class="wjs_product_boxL navbar-left">
+                                <h4>新手体验标1002期</h4>
+
+                                <p><span class="txt_left">起投金额(元)</span><span class="txt_right">已投标人数</span></p><br/>
+
+                                <p><span class="txt_left">0.01万</span><span class="txt_right">22</span></p><br/>
+
+                                <p><span class="txt_left">借款期限</span><span class="txt_right">已投标总金额</span></p><br/>
+
+                                <p><span class="txt_left">10天</span><span>2000</span></p>
+                            </div>
+                            <div class="wjs_product_boxR navbar-right">
+                                <span class="wjs_product_boxR_Bold">8</span>%
+                                <p>年利率</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="wjs_box col-md-4 col-sm-6 col-xs-12">
+                        <div class="innerBox">
+                            <div class="wjs_product_boxL navbar-left">
+                                <h4>新手体验标1002期</h4>
+
+                                <p><span class="txt_left">起投金额(元)</span><span class="txt_right">已投标人数</span></p><br/>
+
+                                <p><span class="txt_left">0.01万</span><span class="txt_right">22</span></p><br/>
+
+                                <p><span class="txt_left">借款期限</span><span class="txt_right">已投标总金额</span></p><br/>
+
+                                <p><span class="txt_left">10天</span><span>2000</span></p>
+                            </div>
+                            <div class="wjs_product_boxR navbar-right">
+                                <span class="wjs_product_boxR_Bold">8</span>%
+                                <p>年利率</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="wjs_box col-md-4 col-sm-6 col-xs-12 ">
+                        <div class="div innerBox">
+                            <div class="wjs_product_boxL navbar-left">
+                                <h4>新手体验标1002期</h4>
+
+                                <p><span class="txt_left">起投金额(元)</span><span class="txt_right">已投标人数</span></p><br/>
+
+                                <p><span class="txt_left">0.01万</span><span class="txt_right">22</span></p><br/>
+
+                                <p><span class="txt_left">借款期限</span><span class="txt_right">已投标总金额</span></p><br/>
+
+                                <p><span class="txt_left">10天</span><span>2000</span></p>
+                            </div>
+                            <div class="wjs_product_boxR navbar-right">
+                                <span class="wjs_product_boxR_Bold">8</span>%
+                                <p>年利率</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="wjs_box col-md-4 col-sm-6 col-xs-12">
+                        <div class="innerBox">
+                            <div class="wjs_product_boxL navbar-left">
+                                <h4>新手体验标1002期</h4>
+
+                                <p><span class="txt_left">起投金额(元)</span><span class="txt_right">已投标人数</span></p><br/>
+
+                                <p><span class="txt_left">0.01万</span><span class="txt_right">22</span></p><br/>
+
+                                <p><span class="txt_left">借款期限</span><span class="txt_right">已投标总金额</span></p><br/>
+
+                                <p><span class="txt_left">10天</span><span>2000</span></p>
+                            </div>
+                            <div class="wjs_product_boxR navbar-right">
+                                <span class="wjs_product_boxR_Bold">8</span>%
+                                <p>年利率</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div role="tabpanel" class="tab-pane fade" id="invest2">
+            <div class="container">
+                <div class="row">
+                    <div class="wjs_box col-md-4 col-sm-6 col-xs-12">
+                        <div class="innerBox">
+                            <div class="wjs_product_boxL navbar-left">
+                                <h4>新手体验标1002期</h4>
+
+                                <p><span class="txt_left">起投金额(元)</span><span class="txt_right">已投标人数</span></p><br/>
+
+                                <p><span class="txt_left">0.01万</span><span class="txt_right">22</span></p><br/>
+
+                                <p><span class="txt_left">借款期限</span><span class="txt_right">已投标总金额</span></p><br/>
+
+                                <p><span class="txt_left">10天</span><span>2000</span></p>
+                            </div>
+                            <div class="wjs_product_boxR navbar-right">
+                                <span class="wjs_product_boxR_Bold">8</span>%
+                                <p>年利率</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="wjs_box col-md-4 col-sm-6 col-xs-12">
+                        <div class="innerBox">
+                            <div class="wjs_product_boxL navbar-left">
+                                <h4>新手体验标1002期</h4>
+
+                                <p><span class="txt_left">起投金额(元)</span><span class="txt_right">已投标人数</span></p><br/>
+
+                                <p><span class="txt_left">0.01万</span><span class="txt_right">22</span></p><br/>
+
+                                <p><span class="txt_left">借款期限</span><span class="txt_right">已投标总金额</span></p><br/>
+
+                                <p><span class="txt_left">10天</span><span>2000</span></p>
+                            </div>
+                            <div class="wjs_product_boxR navbar-right">
+                                <span class="wjs_product_boxR_Bold">8</span>%
+                                <p>年利率</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="wjs_box col-md-4 col-sm-6 col-xs-12 ">
+                        <div class="div innerBox">
+                            <div class="wjs_product_boxL navbar-left">
+                                <h4>新手体验标1002期</h4>
+
+                                <p><span class="txt_left">起投金额(元)</span><span class="txt_right">已投标人数</span></p><br/>
+
+                                <p><span class="txt_left">0.01万</span><span class="txt_right">22</span></p><br/>
+
+                                <p><span class="txt_left">借款期限</span><span class="txt_right">已投标总金额</span></p><br/>
+
+                                <p><span class="txt_left">10天</span><span>2000</span></p>
+                            </div>
+                            <div class="wjs_product_boxR navbar-right">
+                                <span class="wjs_product_boxR_Bold">8</span>%
+                                <p>年利率</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="wjs_box col-md-4 col-sm-6 col-xs-12">
+                        <div class="innerBox">
+                            <div class="wjs_product_boxL navbar-left">
+                                <h4>新手体验标1002期</h4>
+
+                                <p><span class="txt_left">起投金额(元)</span><span class="txt_right">已投标人数</span></p><br/>
+
+                                <p><span class="txt_left">0.01万</span><span class="txt_right">22</span></p><br/>
+
+                                <p><span class="txt_left">借款期限</span><span class="txt_right">已投标总金额</span></p><br/>
+
+                                <p><span class="txt_left">10天</span><span>2000</span></p>
+                            </div>
+                            <div class="wjs_product_boxR navbar-right">
+                                <span class="wjs_product_boxR_Bold">8</span>%
+                                <p>年利率</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div role="tabpanel" class="tab-pane fade" id="invest3">
+            <div class="container">
+                <div class="row">
+                    <div class="wjs_box col-md-4 col-sm-6 col-xs-12">
+                        <div class="innerBox">
+                            <div class="wjs_product_boxL navbar-left">
+                                <h4>新手体验标1002期</h4>
+
+                                <p><span class="txt_left">起投金额(元)</span><span class="txt_right">已投标人数</span></p><br/>
+
+                                <p><span class="txt_left">0.01万</span><span class="txt_right">22</span></p><br/>
+
+                                <p><span class="txt_left">借款期限</span><span class="txt_right">已投标总金额</span></p><br/>
+
+                                <p><span class="txt_left">10天</span><span>2000</span></p>
+                            </div>
+                            <div class="wjs_product_boxR navbar-right">
+                                <span class="wjs_product_boxR_Bold">8</span>%
+                                <p>年利率</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="wjs_box col-md-4 col-sm-6 col-xs-12">
+                        <div class="innerBox">
+                            <div class="wjs_product_boxL navbar-left">
+                                <h4>新手体验标1002期</h4>
+
+                                <p><span class="txt_left">起投金额(元)</span><span class="txt_right">已投标人数</span></p><br/>
+
+                                <p><span class="txt_left">0.01万</span><span class="txt_right">22</span></p><br/>
+
+                                <p><span class="txt_left">借款期限</span><span class="txt_right">已投标总金额</span></p><br/>
+
+                                <p><span class="txt_left">10天</span><span>2000</span></p>
+                            </div>
+                            <div class="wjs_product_boxR navbar-right">
+                                <span class="wjs_product_boxR_Bold">8</span>%
+                                <p>年利率</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="wjs_box col-md-4 col-sm-6 col-xs-12 ">
+                        <div class="div innerBox">
+                            <div class="wjs_product_boxL navbar-left">
+                                <h4>新手体验标1002期</h4>
+
+                                <p><span class="txt_left">起投金额(元)</span><span class="txt_right">已投标人数</span></p><br/>
+
+                                <p><span class="txt_left">0.01万</span><span class="txt_right">22</span></p><br/>
+
+                                <p><span class="txt_left">借款期限</span><span class="txt_right">已投标总金额</span></p><br/>
+
+                                <p><span class="txt_left">10天</span><span>2000</span></p>
+                            </div>
+                            <div class="wjs_product_boxR navbar-right">
+                                <span class="wjs_product_boxR_Bold">8</span>%
+                                <p>年利率</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="wjs_box col-md-4 col-sm-6 col-xs-12">
+                        <div class="innerBox">
+                            <div class="wjs_product_boxL navbar-left">
+                                <h4>新手体验标1002期</h4>
+
+                                <p><span class="txt_left">起投金额(元)</span><span class="txt_right">已投标人数</span></p><br/>
+
+                                <p><span class="txt_left">0.01万</span><span class="txt_right">22</span></p><br/>
+
+                                <p><span class="txt_left">借款期限</span><span class="txt_right">已投标总金额</span></p><br/>
+
+                                <p><span class="txt_left">10天</span><span>2000</span></p>
+                            </div>
+                            <div class="wjs_product_boxR navbar-right">
+                                <span class="wjs_product_boxR_Bold">8</span>%
+                                <p>年利率</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div role="tabpanel" class="tab-pane fade" id="invest4">
+            <div class="container">
+                <div class="row">
+                    <div class="wjs_box col-md-4 col-sm-6 col-xs-12">
+                        <div class="innerBox">
+                            <div class="wjs_product_boxL navbar-left">
+                                <h4>新手体验标1002期</h4>
+
+                                <p><span class="txt_left">起投金额(元)</span><span class="txt_right">已投标人数</span></p><br/>
+
+                                <p><span class="txt_left">0.01万</span><span class="txt_right">22</span></p><br/>
+
+                                <p><span class="txt_left">借款期限</span><span class="txt_right">已投标总金额</span></p><br/>
+
+                                <p><span class="txt_left">10天</span><span>2000</span></p>
+                            </div>
+                            <div class="wjs_product_boxR navbar-right">
+                                <span class="wjs_product_boxR_Bold">8</span>%
+                                <p>年利率</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="wjs_box col-md-4 col-sm-6 col-xs-12">
+                        <div class="innerBox">
+                            <div class="wjs_product_boxL navbar-left">
+                                <h4>新手体验标1002期</h4>
+
+                                <p><span class="txt_left">起投金额(元)</span><span class="txt_right">已投标人数</span></p><br/>
+
+                                <p><span class="txt_left">0.01万</span><span class="txt_right">22</span></p><br/>
+
+                                <p><span class="txt_left">借款期限</span><span class="txt_right">已投标总金额</span></p><br/>
+
+                                <p><span class="txt_left">10天</span><span>2000</span></p>
+                            </div>
+                            <div class="wjs_product_boxR navbar-right">
+                                <span class="wjs_product_boxR_Bold">8</span>%
+                                <p>年利率</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="wjs_box col-md-4 col-sm-6 col-xs-12 ">
+                        <div class="div innerBox">
+                            <div class="wjs_product_boxL navbar-left">
+                                <h4>新手体验标1002期</h4>
+
+                                <p><span class="txt_left">起投金额(元)</span><span class="txt_right">已投标人数</span></p><br/>
+
+                                <p><span class="txt_left">0.01万</span><span class="txt_right">22</span></p><br/>
+
+                                <p><span class="txt_left">借款期限</span><span class="txt_right">已投标总金额</span></p><br/>
+
+                                <p><span class="txt_left">10天</span><span>2000</span></p>
+                            </div>
+                            <div class="wjs_product_boxR navbar-right">
+                                <span class="wjs_product_boxR_Bold">8</span>%
+                                <p>年利率</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="wjs_box col-md-4 col-sm-6 col-xs-12">
+                        <div class="innerBox">
+                            <div class="wjs_product_boxL navbar-left">
+                                <h4>新手体验标1002期</h4>
+
+                                <p><span class="txt_left">起投金额(元)</span><span class="txt_right">已投标人数</span></p><br/>
+
+                                <p><span class="txt_left">0.01万</span><span class="txt_right">22</span></p><br/>
+
+                                <p><span class="txt_left">借款期限</span><span class="txt_right">已投标总金额</span></p><br/>
+
+                                <p><span class="txt_left">10天</span><span>2000</span></p>
+                            </div>
+                            <div class="wjs_product_boxR navbar-right">
+                                <span class="wjs_product_boxR_Bold">8</span>%
+                                <p>年利率</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div role="tabpanel" class="tab-pane fade" id="invest5">
+            <div class="container">
+                <div class="row">
+                    <div class="wjs_box col-md-4 col-sm-6 col-xs-12">
+                        <div class="innerBox">
+                            <div class="wjs_product_boxL navbar-left">
+                                <h4>新手体验标1002期</h4>
+
+                                <p><span class="txt_left">起投金额(元)</span><span class="txt_right">已投标人数</span></p><br/>
+
+                                <p><span class="txt_left">0.01万</span><span class="txt_right">22</span></p><br/>
+
+                                <p><span class="txt_left">借款期限</span><span class="txt_right">已投标总金额</span></p><br/>
+
+                                <p><span class="txt_left">10天</span><span>2000</span></p>
+                            </div>
+                            <div class="wjs_product_boxR navbar-right">
+                                <span class="wjs_product_boxR_Bold">8</span>%
+                                <p>年利率</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="wjs_box col-md-4 col-sm-6 col-xs-12">
+                        <div class="innerBox">
+                            <div class="wjs_product_boxL navbar-left">
+                                <h4>新手体验标1002期</h4>
+
+                                <p><span class="txt_left">起投金额(元)</span><span class="txt_right">已投标人数</span></p><br/>
+
+                                <p><span class="txt_left">0.01万</span><span class="txt_right">22</span></p><br/>
+
+                                <p><span class="txt_left">借款期限</span><span class="txt_right">已投标总金额</span></p><br/>
+
+                                <p><span class="txt_left">10天</span><span>2000</span></p>
+                            </div>
+                            <div class="wjs_product_boxR navbar-right">
+                                <span class="wjs_product_boxR_Bold">8</span>%
+                                <p>年利率</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="wjs_box col-md-4 col-sm-6 col-xs-12 ">
+                        <div class="div innerBox">
+                            <div class="wjs_product_boxL navbar-left">
+                                <h4>新手体验标1002期</h4>
+
+                                <p><span class="txt_left">起投金额(元)</span><span class="txt_right">已投标人数</span></p><br/>
+
+                                <p><span class="txt_left">0.01万</span><span class="txt_right">22</span></p><br/>
+
+                                <p><span class="txt_left">借款期限</span><span class="txt_right">已投标总金额</span></p><br/>
+
+                                <p><span class="txt_left">10天</span><span>2000</span></p>
+                            </div>
+                            <div class="wjs_product_boxR navbar-right">
+                                <span class="wjs_product_boxR_Bold">8</span>%
+                                <p>年利率</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="wjs_box col-md-4 col-sm-6 col-xs-12">
+                        <div class="innerBox">
+                            <div class="wjs_product_boxL navbar-left">
+                                <h4>新手体验标1002期</h4>
+
+                                <p><span class="txt_left">起投金额(元)</span><span class="txt_right">已投标人数</span></p><br/>
+
+                                <p><span class="txt_left">0.01万</span><span class="txt_right">22</span></p><br/>
+
+                                <p><span class="txt_left">借款期限</span><span class="txt_right">已投标总金额</span></p><br/>
+
+                                <p><span class="txt_left">10天</span><span>2000</span></p>
+                            </div>
+                            <div class="wjs_product_boxR navbar-right">
+                                <span class="wjs_product_boxR_Bold">8</span>%
+                                <p>年利率</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+<!--新闻-->
+<div class="wjs_news">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5 col-sm-12 col-xs-12">
+                <span class="tips">全部新闻</span>
+            </div>
+
+            <div class="col-md-1 col-sm-12 col-xs-12">
+                <!-- Nav tabs -->
+                <ul class="nav nav-tabs" role="tablist">
+                    <li role="presentation" class="active">
+                        <a href="#allNews" aria-controls="allNews" role="tab" data-toggle="tab" value="全网新闻"></a>
+                    </li>
+                    <li role="presentation">
+                        <a href="#inline_information" aria-controls="inline_information" role="tab"
+                           data-toggle="tab" value="业内行情"></a>
+                    </li>
+                    <li role="presentation">
+                        <a href="#media_report" aria-controls="media_report" role="tab" data-toggle="tab"
+                           value="媒体报道"></a>
+                    </li>
+                    <li role="presentation">
+                        <a href="#internet_rate_report" aria-controls="internet_rate_report" role="tab"
+                           data-toggle="tab" value="利率报告"></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-6 col-sm-12 col-xs-12">
+                <!-- Tab panes -->
+                <div class="tab-content">
+                    <div role="tabpanel" class="tab-pane active" id="allNews">
+                        <div class="list-group">
+                            <a href="#javasript;" class="list-group-item active">2016-02-22 【微公告】微金所发布年度机构信用评级</a>
+                            <a href="#javasript;" class="list-group-item">2016-02-22 【微公告】微金所发布年度机构信用评级</a>
+                            <a href="#javasript;" class="list-group-item">2016-02-22 【微公告】微金所发布年度机构信用评级</a>
+                            <a href="#javasript;" class="list-group-item">2016-02-22 【微公告】微金所发布年度机构信用评级</a>
+                            <a href="#javasript;" class="list-group-item">2016-02-22 【微公告】微金所发布年度机构信用评级</a>
+                        </div>
+                    </div>
+                    <div role="tabpanel" class="tab-pane" id="inline_information">
+                        <div class="list-group">
+                            <a href="#javasript;" class="list-group-item active">
+                                《搜狐财经》《国际在线》等多家媒体报道：股权质押或成互联网金融资产端新走向</a>
+                            <a href="#javasript;" class="list-group-item">
+                                《搜狐财经》《国际在线》等多家媒体报道：股权质押或成互联网金融资产端新走向</a>
+                            <a href="#javasript;" class="list-group-item">
+                                《搜狐财经》《国际在线》等多家媒体报道：股权质押或成互联网金融资产端新走向</a>
+                            <a href="#javasript;" class="list-group-item">
+                                《搜狐财经》《国际在线》等多家媒体报道：股权质押或成互联网金融资产端新走向</a>
+                            <a href="#" class="list-group-item">
+                                《搜狐财经》《国际在线》等多家媒体报道：股权质押或成互联网金融资产端新走向</a>
+                        </div>
+                    </div>
+                    <div role="tabpanel" class="tab-pane" id="media_report">
+                        <div class="list-group">
+                            <a href="#javasript;" class="list-group-item active">
+                                【凤凰网】网贷之家：盘点哪些平台做到存管、ICP、风投？微金所成为18家之一</a>
+                            <a href="#javasript;" class="list-group-item">
+                                【凤凰网】网贷之家：盘点哪些平台做到存管、ICP、风投？微金所成为18家之一</a>
+                            <a href="#javasript;" class="list-group-item">
+                                【凤凰网】网贷之家：盘点哪些平台做到存管、ICP、风投？微金所成为18家之一</a>
+                            <a href="#javasript;" class="list-group-item">
+                                【凤凰网】网贷之家：盘点哪些平台做到存管、ICP、风投？微金所成为18家之一</a>
+                            <a href="#javasript;" class="list-group-item">
+                                【凤凰网】网贷之家：盘点哪些平台做到存管、ICP、风投？微金所成为18家之一</a>
+                        </div>
+                    </div>
+                    <div role="tabpanel" class="tab-pane" id="internet_rate_report">
+                        <div class="list-group">
+                            <a href="#javasript;" class="list-group-item active">2016-02-22 微金所信贷市场利率指数报告 (2017年5月）</a>
+                            <a href="#javasript;" class="list-group-item">2016-02-22 微金所信贷市场利率指数报告 (2017年5月）</a>
+                            <a href="#javasript;" class="list-group-item">2016-02-22 微金所信贷市场利率指数报告 (2017年5月）</a>
+                            <a href="#javasript;" class="list-group-item">2016-02-22 微金所信贷市场利率指数报告 (2017年5月）</a>
+                            <a href="#javasript;" class="list-group-item">2016-02-22 微金所信贷市场利率指数报告 (2017年5月）</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<!--footer-->
+<footer class="wjs_partner">
+    <div class="container">
+        <div class="row">
+            <div class="text">
+                <p>合作伙伴</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-2 col-md-4 col-sm-6 col-xs-6">
+                <span class="partner_icon"></span>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-6 col-xs-6">
+                <span class="partner_icon"></span>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-6 col-xs-6">
+                <span class="partner_icon"></span>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-6 col-xs-6">
+                <span class="partner_icon"></span>
+
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-6 col-xs-6">
+                <span class="partner_icon"></span>
+
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-6 col-xs-6">
+                <span class="partner_icon"></span>
+            </div>
+
+        </div>
+    </div>
+</footer>
+
+</body>
+
+<script src="./lib/jquery/jquery.min.js"></script>
+<script src="./lib/bootstrap/js/bootstrap.js"></script>
+<script src="./js/News.js"></script>
+<!--<script type="text/javascript">-->
+<!--$(document).ready(function () {-->
+<!--$(".nav-tabs>li>a").click(function () {-->
+<!--var value = $(".nav-tabs>li a:focus").attr("value");-->
+<!--$(".tips").text(value);-->
+<!--console.log(":" + value);-->
+<!--});-->
+<!--});-->
+<!--</script>-->
+</html>

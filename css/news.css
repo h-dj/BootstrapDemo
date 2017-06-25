@@ -1,0 +1,79 @@
+.wjs_news {
+   position: relative;
+}
+
+.wjs_news .container .row {
+    text-align: center;
+}
+
+.wjs_news .container .row .col-md-5 > .tips {
+    display: block;
+    margin: 20px auto;
+    width: 20%;
+    border-bottom: 2px solid #cccccc;
+    font-size: 18px;
+}
+
+.nav-tabs {
+    border: none;
+    text-align: center;
+}
+
+.nav-tabs > li {
+    text-align: center;
+    height: 50px;
+    margin: 10px 10px;
+}
+
+.wjs_news .nav-tabs > li > a {
+
+    display: block;
+    line-height: 1.42857143;
+    border: none;
+    padding: 0px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-origin: border-box;
+    -webkit-background-size: 50%;
+    background-size: 50%;
+    background-position: 48% 48%;
+    background-color: #cccccc;
+}
+
+.wjs_news .nav-tabs > li:nth-child(1) > a {
+     background-image: url("../images/all_news.png");
+ }
+
+.wjs_news .nav-tabs > li:nth-child(2) > a {
+    background-image: url("../images/inline_infomation.png");
+}
+
+.wjs_news .nav-tabs > li:nth-child(3) > a {
+    background-image: url("../images/media_report.png");
+}
+
+.wjs_news .nav-tabs > li:nth-child(4) > a {
+    background-image: url("../images/internet_rate_report.png");
+}
+
+.wjs_news .nav-tabs > li > a:hover {
+    background-color: red;
+}
+
+.wjs_news .nav-tabs > li.active > a,
+.wjs_news .nav-tabs > li.active > a:hover,
+.wjs_news .nav-tabs > li.active > a:focus {
+    color: #555;
+    cursor: default;
+    background-color: red;
+    border: none;
+}
+
+.wjs_news .wjs_produce .tab-content {
+    overflow: hidden;
+    text-align: center;
+    background: #F0F0F0;
+
+}

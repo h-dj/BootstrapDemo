@@ -1,0 +1,35 @@
+.wjs_info {
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+@media (max-width: 768px) {
+    .wjs_info{
+        display: none;
+    }
+}
+
+.container .row .col-md-4 {
+    height: 80px;
+}
+
+
+
+.container .row .col-md-4 .left {
+    display: inline-table;
+    width: 20%;
+    text-align: center;
+}
+
+.container .row .col-md-4 .right {
+    display: inline-table;
+    width: 60%;
+}
+
+
+
+.container .row .col-md-4 .right {
+    font-size: small;
+    color: #666666;
+}

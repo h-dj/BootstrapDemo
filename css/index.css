@@ -1,0 +1,76 @@
+/*¹«¹²ÊôÐÔ*/
+a {
+    color: #666;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #666;
+    text-decoration: none;
+}
+
+.m_R10 {
+    margin-right: 10px;
+}
+
+.m_L10 {
+    margin-left: 10px;
+}
+
+.divider{
+    border-bottom: 1px solid #cccccc;
+}
+/*header*/
+.wjs_header {
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+
+
+}
+@media (max-width: 993px) {
+    .wjs_header{
+        display: none;
+    }
+}
+.wjs_header .row > div {
+    border-right: 1px solid #cccccc;
+}
+
+.wjs_header .row > div:last-child {
+    border-right: none;
+}
+
+.wjs_header .wjs_code {
+    position: relative;
+}
+
+.wjs_header .wjs_code > img {
+    position: absolute;
+    top: 32px;
+    left: 0px;
+    display: none;
+    border: 1px solid #cccccc;
+}
+
+.wjs_header .wjs_code:hover > img {
+    display: block;
+    border-top: none;
+    z-index: 199;
+}
+
+.wjs_header .row  .wjs_problem {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.wjs_header .col-md-3 .register {
+    background-color: red;
+    color: white;
+}
+
+.wjs_header .col-md-3 .login {
+    background-color: #fff;
+    border: none;
+}
+
